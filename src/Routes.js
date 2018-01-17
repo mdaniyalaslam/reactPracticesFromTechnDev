@@ -23,7 +23,7 @@ const CustomRoutes = () =>(
 
             <Route exact path="/" component={App} />
             <Route path="/about" component={About} />
-            <Route path="/contact" component={Contact} />
+            <Route path="/contact/:id" component={Contact} />
         </div>
     </Router>
 
